@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/conchetumare AAAA.ogg-55e3d3daa8a6d90fdeb686d946f3cbf2.oggstr"
+
+[deps]
+
+source_file="res://conchetumare AAAA.ogg"
+dest_files=[ "res://.import/conchetumare AAAA.ogg-55e3d3daa8a6d90fdeb686d946f3cbf2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

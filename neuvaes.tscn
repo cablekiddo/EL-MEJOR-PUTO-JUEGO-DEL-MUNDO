@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://GMdoklOXgAAAhQu.png" type="Texture" id=1]
+[ext_resource path="res://SCRIPT.gd" type="Script" id=2]
+[ext_resource path="res://Sin título.png" type="Texture" id=3]
+
+[node name="GMdoklOxgAaahQu" type="Sprite"]
+position = Vector2( 496, 286 )
+scale = Vector2( 1.64118, 1.46809 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = -54.2294
+margin_top = 45.6377
+margin_right = 158.771
+margin_bottom = 141.638
+text = "JUGAR = ENTER"
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2( 98.7096, -139.638 )
+normal = ExtResource( 3 )
+action = "ui_accept"

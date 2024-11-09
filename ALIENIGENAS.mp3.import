@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ALIENIGENAS.mp3-91ee210d134b7b6432c2639c91c51722.mp3str"
+
+[deps]
+
+source_file="res://ALIENIGENAS.mp3"
+dest_files=[ "res://.import/ALIENIGENAS.mp3-91ee210d134b7b6432c2639c91c51722.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

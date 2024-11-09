@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="run.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Símbolo 10000" x="0" y="0" width="213" height="303" frameX="0" frameY="0" frameWidth="227" frameHeight="304"/>
+	<SubTexture name="Símbolo 10001" x="213" y="0" width="225" height="304" frameX="-2" frameY="0" frameWidth="227" frameHeight="304"/>
+</TextureAtlas>

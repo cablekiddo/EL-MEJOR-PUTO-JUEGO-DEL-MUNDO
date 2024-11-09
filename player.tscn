@@ -1,0 +1,91 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://player.gd" type="Script" id=1]
+[ext_resource path="res://run.png" type="Texture" id=2]
+[ext_resource path="res://sexo.ogg" type="AudioStream" id=3]
+[ext_resource path="res://idel/idle0004.png" type="Texture" id=4]
+[ext_resource path="res://idel/idle0005.png" type="Texture" id=5]
+[ext_resource path="res://idel/idle0002.png" type="Texture" id=6]
+[ext_resource path="res://idel/idle0003.png" type="Texture" id=7]
+[ext_resource path="res://idel/idle0001.png" type="Texture" id=8]
+[ext_resource path="res://a/walk.png0002.png" type="Texture" id=9]
+[ext_resource path="res://a/walk.png0003.png" type="Texture" id=10]
+[ext_resource path="res://a/walk.png0004.png" type="Texture" id=11]
+[ext_resource path="res://a/walk.png0001.png" type="Texture" id=12]
+[ext_resource path="res://a/jum.png" type="Texture" id=13]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 15.9293, 24.5 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 215, 309 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 215, 0, 215, 309 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 8 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ) ],
+"loop": true,
+"name": "jump",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 2 ), SubResource( 3 ) ],
+"loop": true,
+"name": "run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
+} ]
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -4.76837e-07, 0.5 )
+scale = Vector2( 1.00444, 1 )
+shape = SubResource( 1 )
+
+[node name="rayM" type="RayCast2D" parent="."]
+position = Vector2( 0, 25 )
+enabled = true
+cast_to = Vector2( 0, 1 )
+
+[node name="rayR" type="RayCast2D" parent="."]
+position = Vector2( 24, 25 )
+scale = Vector2( -0.84498, 0.0181657 )
+enabled = true
+cast_to = Vector2( 0, 1 )
+
+[node name="rayL" type="RayCast2D" parent="."]
+position = Vector2( -24, 25 )
+enabled = true
+cast_to = Vector2( 0, 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2( 100, 0 )
+current = true
+zoom = Vector2( 0.7, 0.7 )
+smoothing_enabled = true
+smoothing_speed = 2.0
+
+[node name="Pap" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 1.19209e-07, 2.38419e-07 )
+scale = Vector2( 0.127775, 0.159146 )
+frames = SubResource( 4 )
+animation = "walk"

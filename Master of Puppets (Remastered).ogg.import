@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Master of Puppets (Remastered).ogg-b53a9a7f1f9fcf1995963d97cd60f442.oggstr"
+
+[deps]
+
+source_file="res://Master of Puppets (Remastered).ogg"
+dest_files=[ "res://.import/Master of Puppets (Remastered).ogg-b53a9a7f1f9fcf1995963d97cd60f442.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

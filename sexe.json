@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"idle0000":
+{
+	"frame": {"x":608,"y":0,"w":264,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":0,"w":308,"h":280},
+	"sourceSize": {"w":308,"h":280}
+},
+"idle0001":
+{
+	"frame": {"x":0,"y":0,"w":304,"h":248},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":24,"w":308,"h":280},
+	"sourceSize": {"w":308,"h":280}
+},
+"idle0002":
+{
+	"frame": {"x":0,"y":248,"w":305,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":44,"w":308,"h":280},
+	"sourceSize": {"w":308,"h":280}
+},
+"idle0003":
+{
+	"frame": {"x":305,"y":280,"w":305,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":44,"w":308,"h":280},
+	"sourceSize": {"w":308,"h":280}
+},
+"idle0004":
+{
+	"frame": {"x":304,"y":0,"w":304,"h":248},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":24,"w":308,"h":280},
+	"sourceSize": {"w":308,"h":280}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "sexe.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1"
+}
+}

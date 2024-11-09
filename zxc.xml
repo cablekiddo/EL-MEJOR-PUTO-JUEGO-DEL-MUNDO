@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zxc.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="s0000" x="0" y="0" width="302" height="275" frameX="0" frameY="-36" frameWidth="308" frameHeight="327"/>
+	<SubTexture name="s0001" x="0" y="275" width="308" height="265" frameX="0" frameY="-45" frameWidth="308" frameHeight="327"/>
+	<SubTexture name="s0002" x="308" y="275" width="170" height="309" frameX="-66" frameY="-9" frameWidth="308" frameHeight="327"/>
+	<SubTexture name="s0003" x="0" y="584" width="212" height="327" frameX="-67" frameY="0" frameWidth="308" frameHeight="327"/>
+</TextureAtlas>
